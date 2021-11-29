@@ -1,0 +1,24 @@
+h2, h3, h4, h5 a{
+	font-family: 'Acme', sans-serif;
+}
+p{
+	font-family: 'Acme', sans-serif;
+}
+body{
+	background-color: black;
+}
+.nav-item:hover{
+	background: grey;
+}
+h3{ 
+	color: white;
+}
+p{
+	color: white;
+}
+h2{
+	color: white;
+}
+.container{
+	margin-top: 1rem;
+}

@@ -1,0 +1,32 @@
+h2, h3, h4, h5 a{
+	font-family: 'Acme', sans-serif;
+}
+p{
+	font-family: 'Acme', sans-serif;
+}
+body{
+background: url(../images/img12.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.nav-item:hover{
+	background: grey;
+}
+h3{
+	color: white;
+}
+p{
+	color: white;
+}
+h2{
+	color: white;
+}
+.container{
+	margin-top: 1rem;
+}
+.row img{
+	width: 50px;
+}
+
