@@ -10,8 +10,8 @@ self.addEventListener('install', evento=>{
     const promesa =caches.open(CACHE)
         .then(cache=>{
             return cache.addAll([
-                '/',
-                '/index.html',
+                //'/',
+                'index.html',
                 'css/bootstrap.css',
                 'css/index.css',
                 'css/contacto.css',
@@ -32,7 +32,7 @@ self.addEventListener('install', evento=>{
                 'images/img15.jpg',
                 'js/funciones.js',
                 'js/dixie.min.js',
-                'js/main.js'
+                'js/main.js',
             ]);
         });
         //Promesa que crea el proceso de creación del espacio de cache inmutable
