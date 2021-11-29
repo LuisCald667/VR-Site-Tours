@@ -33,6 +33,7 @@ self.addEventListener('install', evento=>{
                 'js/funciones.js',
                 'js/dixie.min.js',
                 'js/main.js',
+                'manifest.jason',
             ]);
         });
         //Promesa que crea el proceso de creación del espacio de cache inmutable
