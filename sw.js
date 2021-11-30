@@ -9,7 +9,7 @@ self.addEventListener('install', evento=>{
     aplicación*/
     const promesa =caches.open(CACHE)
         .then(cache=>{
-            return cache.addAll([
+            cache.addAll([
                 //'/',
                 '/index.html',
                 '/css/bootstrap.css',
@@ -25,7 +25,7 @@ self.addEventListener('install', evento=>{
                 '/js/bootstrap.min.js',
                 '/js/app.js',
                 '/offline.html',
-                '/images/A1.jpg',
+                '/images/A1.JPG',
                 '/images/img7.jpg',
                 '/images/img9.jpg',
                 '/images/img12.jpg',
