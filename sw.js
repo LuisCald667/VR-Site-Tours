@@ -25,7 +25,7 @@ self.addEventListener('install', evento=>{
                 'js/bootstrap.min.js',
                 'js/app.js',
                 'offline.html',
-                'images/a1.jpg',
+                'images/A1.JPG',
                 'images/img7.jpg',
                 'images/img9.jpg',
                 'images/img12.jpg',
